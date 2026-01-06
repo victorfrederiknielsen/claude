@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+
+# Allow markdown configuration files
+!*.md
+!**/*.md
+
+# Allow this gitignore
+!.gitignore
+
+# Allow settings
+!settings.json
+
+# Allow skills directory
+!skills/
+!skills/**
+
+# Allow plugins directory
+!plugins/
+!plugins/**

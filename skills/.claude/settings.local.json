@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(linearis issues read:*)",
+      "Bash(linearis --help:*)",
+      "Bash(linearis issues --help:*)",
+      "Bash(linearis issues update --help:*)",
+      "Bash(linearis usage:*)",
+      "Bash(linearis issues search:*)",
+      "WebFetch(domain:linear.app)",
+      "WebFetch(domain:developers.linear.app)",
+      "WebFetch(domain:studio.apollographql.com)",
+      "WebSearch",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl:*)",
+      "Bash(linearis projects --help:*)",
+      "Bash(linearis cycles --help:*)",
+      "Bash(linearis project-milestones:*)",
+      "Bash(linearis comments --help:*)",
+      "Bash(linearis labels --help:*)",
+      "Bash(linearis embeds --help:*)",
+      "Bash(find:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "Bash(linearis embeds read:*)",
+      "WebFetch(domain:docs.labs.instruqt.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
