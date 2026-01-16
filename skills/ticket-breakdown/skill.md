@@ -205,9 +205,10 @@ graph TD
 
 | Size | Description | When to Split |
 |------|-------------|---------------|
-| Small | 1-2 days | Don't split further |
-| Medium | 3-5 days | Consider splitting if has distinct blocking phases |
-| Large | > 5 days | Split by component boundary or complexity |
+| S | Single focused change, minimal complexity | Don't split further |
+| M | Multiple related changes, moderate complexity | Consider splitting if has distinct blocking phases |
+| L | Significant scope, multiple components touched | Split by component boundary or complexity |
+| XL | Large scope, high complexity | Must split into smaller tickets |
 
 ### 8. When to Split vs Bundle
 

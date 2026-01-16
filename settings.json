@@ -1,6 +1,43 @@
 {
-  "alwaysThinkingEnabled": true,
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "RIPGREP_CONFIG_PATH": "/opt/homebrew/bin/rg"
+  },
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Grep",
+      "Bash(go:*)",
+      "Bash(rg:*)",
+      "Bash(find:*)"
+    ],
+    "deny": [
+      "Bash(sudo:*)"
+    ],
+    "ask": [
+      "Bash(git:*)",
+      "Bash(rm:*)",
+      "Bash(sed:*)",
+      "Bash(awk:*)",
+      "Bash(perl:*)",
+      "Bash(python:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [],
+    "PostToolUse": []
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "npx -y @owloops/claude-powerline@latest --style=powerline"
+  },
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true
+  },
+  "promptSuggestionEnabled": false,
   "feedbackSurveyState": {
-    "lastShownTime": 1754428227596
+    "lastShownTime": 1754297536640
   }
 }

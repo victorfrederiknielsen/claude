@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "plugins": {
+    "gopls-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/victornielsen/.claude/plugins/marketplaces/claude-plugins-official/plugins/gopls-lsp",
+        "version": "1.0.0",
+        "installedAt": "2026-01-07T11:40:37.894Z",
+        "lastUpdated": "2026-01-07T11:40:37.894Z",
+        "gitCommitSha": "b97f6eadd92917d0f8266309b74396b5a3c4f857",
+        "isLocal": true
+      }
+    ]
+  }
+}
